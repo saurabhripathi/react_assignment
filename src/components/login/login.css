@@ -1,0 +1,58 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    width: 25%;
+    margin: auto;
+    padding: 77px;
+    border: 1px solid #8080803b;
+    margin-top: 137px;
+    border-radius: 5px;
+    background-color: #80808026;
+    box-shadow: 0px 0px 2px 0px;
+
+}
+
+
+.Container input:first-child{
+    width: 200px
+
+}
+
+
+.Button{
+    margin: auto;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #80808000;
+    background-color: #87ceeb;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top :5px;
+    cursor: pointer;
+    font-weight: bold
+}
+
+.Container div input{
+    margin-bottom: 5px
+}
+
+.Input{
+
+    max-width:200px;
+    display:block;
+       margin-top :5px;
+        padding: 3px 0px 3px 0px;
+        border: 1px solid gray;
+        border-radius: 2px
+
+}
+.Input:hover{
+    border: 1px solid skyblue
+}
+
+.Input:focus{
+    border: 1px solid skyblue
+}
